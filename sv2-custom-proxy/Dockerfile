@@ -1,5 +1,5 @@
 # Build stage
-FROM rust:1.75-alpine AS builder
+FROM rust:1.82-alpine AS builder
 
 WORKDIR /usr/src/sv2-custom-proxy
 COPY ./sv2-custom-proxy .
